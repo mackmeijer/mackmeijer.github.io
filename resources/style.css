@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 96%;
+    margin:10px auto;
+    background:  rgba(80, 121, 167, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid  rgba(70, 107, 150, 0.8);
+}
+
+h1 {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+
+  }
+
+.chat_wrapper{
+    width: 70%;
+    margin: 10px auto;
+    background: #ffffff;
+    border-radius: 11px;
+    background-origin: padding-box;
+}
+
+#chat{
+    min-height: 400px;
+    height: 400px;
+    overflow: auto;
+    border: 10px solid rgba(252, 84, 69, 0.842);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.textarea{
+  
+    width: 96%;
+    padding: 10px;
+
+}
+.single-msg{
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.single-msg span{
+    float: right;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #183040;
+    
+    
+  }
+  
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav .login {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4A7996;
+    color: white;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .button a:hover {
+    background-color: #ddd;
+    color: black;
+  }
